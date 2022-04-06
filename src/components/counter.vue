@@ -5,8 +5,8 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="h3 display-3">{{this.count}}</div>
-                        <button class="btn btn-success" @click="this.incr">Increment</button>
-                        <button class="btn btn-warning" @click="this.decr">Decrement</button>
+                        <button class="btn btn-success m-1" @click="this.incr">Increment</button>
+                        <button class="btn btn-warning m-1" @click="this.decr">Decrement</button>
                     </div>
                 </div>
             </div>
@@ -34,5 +34,8 @@ export default {
 </script>
 
 <style scoped>
+div.container {
+    margin-bottom: 2em;
+}
 
 </style>
